@@ -20,7 +20,7 @@ int main()
 	}
 	else
 	{
-		cout << "NO RAN";
+		displayRun(dice, size);
 	}
 }
 void displayRun(int values[], int size)
@@ -38,6 +38,7 @@ void displayRun(int values[], int size)
 		}
 	}
 }
+//a
 bool hasRun(int values[], int size)
 {
 	for (int i = 0; i < size; i++)
